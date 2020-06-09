@@ -18,4 +18,10 @@ I got the inspiration for this layout from [this github repo](https://github.com
 
     * [Style Transfer](pytorch_style_transfer) - Perform Image Style Transfer using CNNs, implemented in Pytorch. This was done as part of a challenge by Udacity (Favourite Memory Challenge)
 
-    * [Image Classification](training_flower_classifier) - Using the Resnet-152 architecture, pretrained on ImageNet data, perform transfer learning and train a image classification model to classify 102 species of flowers.
+    * [Image Classification](training_flower_classifier) - Using the Resnet-152 architecture, pretrained on ImageNet data, perform transfer learning and train a image classification model to classify 102 species of flowers
+
+* <ins>Unsupervised Machine Learning</ins>
+    * [Pairwise Association Rule Mining](https://github.com/alanchn31/Pairwise-Assoc-Rules) - Given a list of baskets of grocery items bought together, find out implied rules between pairs of items
+
+* <ins>Deploying Machine Learning Model</ins>
+    * [Deploying Flower Classifier Model](https://github.com/alanchn31/Flower-App) - Deploy our trained Resnet-152 model used for flower classification, using Flask
