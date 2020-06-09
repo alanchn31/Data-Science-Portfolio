@@ -10,5 +10,6 @@ I got the inspiration for this layout from [this github repo](https://github.com
 ---
 
 * Data Visualization and Feature Engineering
-    * Deep dive into Kaggle's Titanic Data, using pandas, matplotlib and seaborn. scikit-learn's     RandomForestClassifier and XGBoost Classifier is also used, to train a supervised model
+    * [Kaggle's Titanic](kaggle_titanic) - Deep dive into Kaggle's Titanic Data, using pandas, matplotlib and seaborn. scikit-learn's      
+      RandomForestClassifier and XGBoost Classifier is also used, to train a supervised model
 
