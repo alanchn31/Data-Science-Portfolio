@@ -1,8 +1,12 @@
 # Data-Science-Portfolio
 ---
-:rocket: This repository contains projects I have embarked on, relating to Data Science. They are presented as Python Jupyter Notebooks (.ipynb) and Python Scripts (.py)
+:rocket: This repository contains projects I have embarked on, relating to Data Science. 
+  
+They are presented as Python Jupyter Notebooks (.ipynb) and Python Scripts (.py)
 
 I got the inspiration for this layout from [this github repo](https://github.com/sajal2692/data-science-portfolio)
+
+Any feedback is greatly welcomed. Please feel free to drop me an email at alanchn31@gmail.com
 
 ## Content
 ---
@@ -12,6 +16,8 @@ I got the inspiration for this layout from [this github repo](https://github.com
 
 * <ins>Supervised Machine Learning</ins>
     * [Predict Housing Prices](kaggle_housing_prices) - Predict prices of residential homes in Ames, Iowa, using 79 explanatory variables. LASSO, Ridge Regression, ElasticNet and XGBoostRegressor were used for supervised learning
+
+    * [Predict Telco Customer Churn](kaggle_churn_prediction) - Assist a telco in predicting customers that are likely to churn, given demographic factors, service type and billing types. Through this notebook, I performed Exploratory Data Analysis and Feature Engineering. Then, I fitted a Logistic Regression model with a RandomForest Classifier. Interpretation of factors that are important in distinguishing customers that will churn are also provided.
 
 * <ins>Deep Learning</ins>
     * [Digit Recognition](kaggle_digit_recognition) - Train Convolutional Neural Network (CNN) models to recognize digits in images using Tensorflow and Keras
