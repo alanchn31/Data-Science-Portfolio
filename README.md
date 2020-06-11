@@ -31,3 +31,6 @@ Any feedback is greatly welcomed. Please feel free to drop me an email at alanch
 
 * <ins>Deploying Machine Learning Model</ins>
     * [Deploying Flower Classifier Model](https://github.com/alanchn31/Flower-App) - Deploy our trained Resnet-152 model used for flower classification, using Flask
+
+    * [Deploying Wine Quality Regression Model](https://github.com/alanchn31/ML-Engineering-Projects/tree/master/wine-quality-elasticnet) - MLOps End-to-End, Experimentation and deployment of our trained ElasticNet model used for wine quality prediction, using MLFlow. The model is deployed to both Azure and AWS
+
