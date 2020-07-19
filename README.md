@@ -32,8 +32,10 @@ Any feedback is greatly welcomed. Please feel free to drop me an email at alanch
 
     * [Image Classification](training_flower_classifier) - Using the Resnet-152 architecture, pretrained on ImageNet data, perform transfer learning and train a image classification model to classify 102 species of flowers
 
+* <ins>Ethical AI</ins>
+    * [Reducing Inherent bias using Fairlearn](fairlearn_mini_projs) Training a model that reduces inherent gender bias using Open Sources library: fairlearn
+
 * <ins>Deploying Machine Learning Model</ins>
     * [Deploying Flower Classifier Model](https://github.com/alanchn31/Flower-App) - Deploy our trained Resnet-152 model used for flower classification, using Flask
 
     * [Deploying Wine Quality Regression Model](https://github.com/alanchn31/ML-Engineering-Projects/tree/master/wine-quality-elasticnet) - MLOps End-to-End, Experimentation and deployment of our trained ElasticNet model used for wine quality prediction, using MLFlow. The model is deployed to both Azure and AWS
-
