@@ -6,13 +6,13 @@
 
 ## Distance Norms:
 * One way of measuring similarity is by using distance norms. A generalization of distance norm is the p-norm distance (Minkowski distance):
-![p-norm](./imgs/minkowski.PNG) 
+![p-norm](./docs/minkowski.PNG) 
 
 * p-norm is a generalization of 2-norm, which is the Euclidean distance (most commonly used):
-![p-norm](./imgs/euclidean.PNG) 
+![p-norm](./docs/euclidean.PNG) 
 
 * For infinity-norm distance, it can be simplified to:
-![p-norm](./imgs/infinity-norm.PNG) 
+![p-norm](./docs/infinity-norm.PNG) 
 
 ## Pseudo-code:
 0. Pick k cluster centers within range of data

@@ -11,7 +11,7 @@ Any feedback is greatly welcomed. Please feel free to drop me an email at alanch
 ## Overview
 ---
 Within the realm of data science, lies 3 main domains:
-![DS Overview](./imgs/Data-Science-fields.png)
+![DS Overview](./docs/Data-Science-fields.png)
 (image from: https://www.datasciencesociety.net/data-science-career-path-after-college/)
 
 Hence, this repo will be structured around 2 main areas:
