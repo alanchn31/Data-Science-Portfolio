@@ -42,7 +42,7 @@ def policy_mode(env):
     # Define function to selection action based on criteria (exploration/exploitation)
     def select_action(state_value, explore_rate):
         if random.random() < explore_rate:
-            action = environment.action_space.sample()
+            action = env.action_space.sample()
         else:
             action = np.argmax(q_value_table[state_value])
         return action
@@ -89,7 +89,7 @@ def policy_mode(env):
             best_q_value = np.amax(q_value_table[state_value])
             q_value_table[previous_state_value + (selected_action,)] += learning_rate * (
                                                                                          reward_gain + discount * (best_q_value) - q_value_table[previous_state_value + (selected_action,)])
-            print('episode number: %d' % episode_no)
+            print('episode number: %d' % episode_num)
             print('time sterp: %d' % time_step)
             print('selected action: %d' % selected_action)
             print('current state: %s' % str(state_value))
@@ -124,7 +124,7 @@ def main(mode):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Script for playing CartPole-v0')
-    parser.add_argument('mode', type=str, const='policy',
+    parser.add_argument('--mode', type=str, default='policy',
                         help='Mode for running cartpole, \
                               either example_mode (without optimization) \
                               or policy (with optimization)')
