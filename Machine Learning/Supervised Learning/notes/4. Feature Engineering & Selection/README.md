@@ -40,5 +40,3 @@
 10. Generate ratios of different features - for eg, finding average sales of transactions by taking total sales of store divide by number of transactions. Another example is momentum ratios - for eg, finding sales generated in the last 2 weeks and divide it by sales generated in the last 6 months, to get short term sales momentum of a store.
 
 11. Time series features - see https://tsfresh.readthedocs.io/en/latest/text/list_of_features.html for more details.
-
-## Feature Selection
