@@ -18,7 +18,7 @@
 
 * A matrix is a two-dimensional object. Thus, when it is stored in memory, it must be mapped in some way to the one-dimensional physical array. There are many possible mappings, but the two most common conventions are known as the column-major and row-major layouts:
 
-    <img src="./docs/row_column_major.PNG" width="500" height="500"><br/><br/>
+    <img src="./docs/row_column_major.png" width="500" height="500"><br/><br/>
 
 ## Requesting a layout in Numpy
 * In Numpy, you can ask for either layout. The default in Numpy is row-major.
@@ -35,11 +35,11 @@
 
 * **Coordinate Format (COO)** - In this format we store three lists, one each for rows, columns and the elements of the matrix.
 
-    <img src="./docs/coo_format.PNG" width="700" height="500"><br/><br/>
+    <img src="./docs/coo_format.png" width="700" height="500"><br/><br/>
 
 * **Compressed Sparse Row Format (CSR)** - similar to the COO format except that it is much more compact and takes up less storage
 
-    <img src="./docs/csr_format.PNG" width="700" height="500"><br/><br/>
+    <img src="./docs/csr_format.png" width="700" height="500"><br/><br/>
 
 ## Scipy implementations:  
 ```
