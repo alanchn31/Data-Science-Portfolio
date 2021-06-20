@@ -31,4 +31,4 @@ In general, we can use 2 main categories of methods to detect anomalies, statist
 
     ![Change Detection](./docs/change_detection.PNG)
 
-Comparison of algorithms for anomaly detection (sciki-learn): https://scikitlearn.org/stable/auto_examples/miscellaneous/plot_anomaly_comparison.html#sphx-glrauto-examples-miscellaneous-plot-anomalycomparison-py
+Comparison of algorithms for anomaly detection (sciki-learn): https://scikit-learn.org/stable/auto_examples/miscellaneous/plot_anomaly_comparison.html
