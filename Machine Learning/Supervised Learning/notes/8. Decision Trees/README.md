@@ -37,7 +37,7 @@
 
     * Gini Impurity is less computationally intensive than Information Gain because it does not contain logarithms
 
-    2. **Information Gain/Entropy** - Entropy is used for calculating the purity of a node. The lower the value of entropy, higher is the purity of the node.
+    2. **Information Gain/Entropy** - Entropy is used for calculating the purity of a node. The lower the value of entropy, higher is the purity of the node.  
         <img src="./docs/entropy.PNG" width="300" height="100"><br/><br/>
 
     * Information gain is the reduction in entropy given a certain split.  
