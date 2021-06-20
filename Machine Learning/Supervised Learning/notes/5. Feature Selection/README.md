@@ -21,7 +21,7 @@
 ### Mutual Information
 * Mutual information is calculated between two variables and measures the reduction in uncertainty for one variable given a known value of the other variable.
 
-    ![MI](./docs/MI.PNG)  <br/><br/>
+    ![MI](./docs/MI.png)  <br/><br/>
 
 * The mutual information between two random variables X and Y can be stated formally as follows:
     I(X ; Y) = H(X) – H(X | Y)
