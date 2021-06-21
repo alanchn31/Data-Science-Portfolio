@@ -51,6 +51,9 @@
 
     * Tutorial on tree pruning on kaggle: https://www.kaggle.com/arunmohan003/pruning-decision-trees-tutorial
 
+## Types of Decision Trees
+* CHAID uses chi-square tests to find the most dominant feature whereas ID3 uses information gain, C4.5 uses gain ratio and CART uses GINI index
+
 ## Pros and Cons of decision trees  
 
 **Pros:**
@@ -72,3 +75,6 @@
 
 ## Boosting:
 * Run weak learner on weighted example sets. Most boosting algorithms consist of iteratively learning weak classifiers with respect to a distribution and adding them to a final strong classifier. When they are added, they are weighted in a way that is related to the weak learners' accuracy. After a weak learner is added, the data weights are readjusted, known as "re-weighting". Misclassified input data gain a higher weight and examples that are classified correctly lose weight.
+
+## Other resources:
+* Tuning hyperparameters of decision trees - https://towardsdatascience.com/how-to-tune-a-decision-tree-f03721801680
