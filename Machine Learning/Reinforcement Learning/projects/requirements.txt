@@ -39,6 +39,6 @@ six==1.11.0
 tensorflow
 tensorflow-tensorboard
 tqdm==4.19.6
-urllib3==1.22
+urllib3==1.26.5
 Werkzeug==0.15.3
 wrapt==1.10.11
