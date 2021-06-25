@@ -25,4 +25,4 @@
 
     ![Adaboost Algorithm](./docs/gbm_reg.PNG)
 
-* For regression, 0.5 * sum((y - F(x))**2) is commonly used as the loss function, while for classification, we tend to usee negative log likelihood function (-y * log(p) + (1 - y) * log(1 - p))
+* For regression, ![equation](https://latex.codecogs.com/gif.latex?%5Csum_%7Bi%3D1%7D%5En%28y_i%20-%20f%28x_i%29%29%5E2) is commonly used as the loss function, while for classification, we tend to usee negative log likelihood function ![equation](https://latex.codecogs.com/gif.latex?-%5Csum_%7Bi%3D1%7D%5Emy_i*log%28f%28x_i%29%29%20&plus;%20%281-y_i%29*log%281-f%28x_i%29%29)
