@@ -17,3 +17,12 @@
         * new sample weight = sample weight * e ^ (- amount of say) (Fore correctly classified samples)
     6. Normalize the new sample weights to add up to 1
     7. Repeat steps 2 - 7 until convergenece (max number of stumps reached or error crosses minimum threshold)
+
+## Gradient Boosting
+* Gradient Boost is similar to Adaboost in concept, except we tend to use decision trees as classifiers (instead of stumps) and we optimize using small steps (through a learning rate and the negative gradient of the loss function (pseudo residuals))
+
+* Algorithm:
+
+    ![Adaboost Algorithm](./docs/gbm_reg.PNG)
+
+* For regression, 0.5 * sum((y - F(x))**2) is commonly used as the loss function, while for classification, we tend to usee negative log likelihood function (-y * log(p) + (1 - y) * log(1 - p))
