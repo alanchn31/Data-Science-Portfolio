@@ -30,7 +30,7 @@ pycodestyle==2.3.1
 pygtp==0.4
 pylint==1.8.2
 pytz==2018.3
-PyYAML==3.12
+PyYAML==5.4
 requests==2.20.0
 rsa==4.7
 scipy==1.1.0
@@ -39,6 +39,6 @@ six==1.11.0
 tensorflow
 tensorflow-tensorboard
 tqdm==4.19.6
-urllib3==1.22
+urllib3==1.26.5
 Werkzeug==0.15.3
 wrapt==1.10.11
