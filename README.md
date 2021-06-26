@@ -15,6 +15,6 @@ Within the realm of data science, lies 3 main domains:
 <img src="./Docs/Data-Science-fields.png" width="500" height="500"><br/>
 (image from: https://www.datasciencesociety.net/data-science-career-path-after-college/)
 
-Hence, this repo will be structured around 2 main areas:
+This repo will be structured around 2 main areas:
 1. Operations Research (Stats & Probability applied to business)
 2. Machine Learning
