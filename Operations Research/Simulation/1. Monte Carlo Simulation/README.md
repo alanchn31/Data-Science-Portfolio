@@ -29,7 +29,7 @@
 * An example of MC Integration
     ![eg_1](./docs/eg_1.PNG)  
 
-    Confidence Interval:
+    Confidence Interval:  
     ![eg_2](./docs/eg_2.PNG)   
 
     We can definitely do better by increasing n! (n=4 is too small, causing a fat confidence interval)
